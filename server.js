@@ -30,3 +30,4 @@ fs.readFile(path.join(__dirname, 'files', 'mytxt.txt'), 'utf8', function(err, da
  console.log(os.uptime());
  console.log(`the release date is ${os.release()}`);
  console.log(mth.mod(10, 3));
+ console.log(`echo "hello" people`);
