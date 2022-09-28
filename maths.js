@@ -10,4 +10,7 @@ exports.div = function div(a, b){
 exports.mul = function mul(a, b){
     return a * b;
 }
+exports.mod = function mod(a, b){
+    return a % b;
+}
 //module.exports = {add, sub, div, mul};
