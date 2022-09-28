@@ -1,0 +1,21 @@
+{
+  "name": "lnode",
+  "version": "1.0.0",
+  "description": "Hey there, this is my Node Js repo good",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emekemini/Node-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emekemini/Node-Demo/issues"
+  },
+  "homepage": "https://github.com/emekemini/Node-Demo#readme"
+}
