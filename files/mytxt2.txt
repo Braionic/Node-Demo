@@ -1,1 +1,3 @@
-testing nodet is sweet
+testing node
+
+ javascript is sweet

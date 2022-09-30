@@ -4,6 +4,14 @@ const mth = require('./maths');
 const fs = require('fs');
 const path = require('path');
 const string = require('./string');
+const event = require('events');
+const x = new event.EventEmitter();
+
+let eventhandler = function(){
+  console.log('i am screeming');
+}
+x.on("screem", eventhandler);
+x.emit('screem');
 //console.log(os.type());
 //console.log(os.version());
 //console.log(os.homedir());
